@@ -1,0 +1,348 @@
+html, body {
+
+	width:100%;
+	height: 100%;
+	margin: 0px;
+	font-family: 'Quicksand';
+	color: white;
+	background-image: url(../img/main.jpg);
+	background-position: center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+	width: 100%;
+	height: 100%;
+
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+	
+
+nav {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px;
+}
+
+nav h2 {
+
+	margin: 20px 0px 15px 60px;
+
+}
+
+nav ul {
+
+	margin: 25px 25px;
+	list-style-type: none;
+	font-family: 'Quicksand';
+
+}
+
+nav li {
+
+	display: inline;
+	margin: 0px 15px;
+
+}
+
+.mainHead {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.mainHead h1 {
+
+	margin: 0px;
+	font-family: 'Open Sans';
+	font-size: 60px;
+
+}
+
+.headDescription {
+
+	margin: 10px 0px;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.contactButton {
+
+	display: block;
+	margin: 5px auto;
+	width: 125px;
+	padding: 15px 35px;
+	background-color:#3A3EAF;
+	border: 1px solid #3A3EAF;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Open Sans';
+	font-weight: bold;
+
+}
+
+.mainPictures {
+	margin: 0px;
+	padding-top: 5px;
+	background-color: white;
+}
+
+.mainPictures header{
+
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+	color: #222;
+
+}
+
+.mainPictures h2 {
+
+	margin: 75px 0px 40px;
+	font-size: 35px;
+	font-weight: bold;
+
+}
+
+.mainPictures .blueBar {
+	display: block;
+	margin: 0px auto;
+	width: 300px;
+	height: 3px;
+	background-color: #3A3EAF;
+
+}
+
+.destinationDesc {
+
+	margin: 0px 0px 30px 0px;
+
+}
+
+.mainGallery {
+	display: block;
+	margin: 10px auto 0px auto;
+	padding: 0px 0px 60px 0px;
+
+}
+
+.gallerySet {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+.gallerySet img {
+	margin: 10px 10px;
+	width: 550px;
+	height: 360px;
+}
+
+.tourPackage {
+	margin: 0px;
+	padding: 20px 0px;
+	background-color:#F4F1F4;
+}
+
+.tourPackage header {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+	color: #222;
+}
+
+.tourPackage header h2 {
+
+	margin: 25px 0px 40px;
+	font-size: 35px;
+	font-weight: bold;
+
+}
+
+.tourPackage header .destinationDesc {
+
+	margin: 0px 0px 30px 0px;
+
+} 
+
+.tourPackage header .blueBar {
+	display: block;
+	margin: 0px auto;
+	width: 300px;
+	height: 3px;
+	background-color: #3A3EAF;
+}
+
+.tripContainer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.iconSection {
+	margin: 80px 80px;
+	width: 375px;
+	text-align: center;
+	color:#222;
+
+}
+
+.iconSection i {
+
+	color:#8389FF;
+	font-size: 5em;
+
+}
+
+.iconSection h3 {
+	font-family:'Open Sans';
+	font-size: 2em;
+	margin: 10px 0px;
+}
+
+.iconSection p {
+	line-height: 35px;
+}
+
+.testimonialContainer {
+	background-color:white;
+}
+
+.testimonialContainer header {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+	color: #222;
+}
+
+.testimonialContainer header h2 {
+	padding-top: 25px;
+	margin: 0px 0px 30px;
+	font-size: 35px;
+	font-weight: bold;
+
+}
+
+.testimonialContainer header .blueBar {
+	display: block;
+	margin: 0px auto;
+	width: 300px;
+	height: 3px;
+	background-color: #3A3EAF;
+}
+
+.messageContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+	flex-wrap: wrap;
+}
+
+.testimonialContainer .testimonial {
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 1.2em;
+	line-height: 32px;
+	width: 700px;
+	color:#222;
+}
+
+.testimonialAuthor {
+	font-weight: bold;
+}
+
+.learnForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color:#F4F1F4;
+}
+
+.learnForm header {
+	display: block;
+	width: 750px;
+	margin: 0px auto;
+	padding: 60px 0px 30px;
+	color: #222;
+	text-align: center;
+}
+
+.learnForm header h2 {
+	padding-top: 10px;
+	margin: 0px 0px 30px 0px;
+	font-size: 35px;
+	font-family:'Open Sans';
+}
+
+.learnForm header p {
+	font-family: 'Open Sans';
+	line-height: 35px;
+	margin: 0px;
+}
+
+.learnForm header .blueBar {
+	display: block;
+	margin: 20px auto;
+	width: 400px;
+	height: 3px;
+	background-color: #3A3EAF;
+}
+
+.learnForm form{
+	display: block;
+	margin: 10px auto;
+}
+
+.learnForm input {
+	padding: 15px;
+	width: 275px;
+}
+
+.learnForm input::placeholder {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.learnForm button {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 30px;
+	background-color:#3A3EB0;
+	border: 1px solid #3A3EB0;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.2em;
+	font-family: 'Quicksand';
+	font-weight: bold;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	padding:10px;
+	background-color:#527481;
+}
+
+footer ul {
+	margin: 0px;
+	padding:0px;
+	list-style-type: none;
+	display: flex;
+}
+
+footer li {
+	margin:5px;
+	font-size:2em;
+}
+
+
+
